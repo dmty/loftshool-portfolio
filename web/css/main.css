@@ -1,0 +1,142 @@
+body {
+	background: url('../img/comppattern2.png');
+	font-family: fira;
+	margin: 0;
+	padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+@font-face {
+    font-family: fira;
+    src: url('../fonts/firasans-book.ttf');
+} 
+@font-face {
+    font-family: proxima;
+    src: url('../fonts/ProximaNovaCond-Semibold.otf');
+} 
+.clearfix:after{
+    content:'';
+    clear:both;
+    display:table;
+}
+/*-------------- sprites -------------*/
+.fb-h, .fb, .gt-h, .gt, .tw-h, 
+.tw, .vk-h, .vk, .hat, .work, 
+.doc, .mail, .skype, .lock, .phone
+{ display: inline-block; background: url('../img/sprites.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.fb:hover { background-position: -3px -0px; width: 47px; height: 47px; }
+.fb { background-position: -3px -50px; width: 47px; height: 47px; }
+.gt:hover { background-position: -3px -100px; width: 47px; height: 47px; }
+.gt { background-position: -3px -150px; width: 47px; height: 47px; }
+.tw:hover { background-position: -3px -200px; width: 47px; height: 47px; }
+.tw { background-position: -3px -250px; width: 47px; height: 47px; }
+.vk:hover { background-position: -3px -300px; width: 47px; height: 47px; }
+.vk { background-position: -3px -350px; width: 47px; height: 47px; }
+.hat { background-position: -3px -400px; width: 41px; height: 23px; }
+.work { background-position: -3px -426px; width: 36px; height: 34px; }
+.doc { background-position: -3px -463px; width: 26px; height: 32px; }
+.mail { background-position: -3px -498px; width: 21px; height: 16px; }
+.skype { background-position: -3px -517px; width: 21px; height: 20px; }
+.lock { background-position: -27px -498px; width: 20px; height: 32px; }
+.phone { background-position: -27px -533px; width: 20px; height: 20px; }
+/* ------ end of sprites -------*/
+.pagewrap{
+	width: 1200px;
+	margin: 0 auto;
+}
+.content {
+	width: 960px;
+}
+.header {
+	height: 119px;
+	background-color: #eff3f7;
+	padding-top: 35px;
+	box-sizing: border-box;
+	border-bottom: 2px solid #307386;
+	border-image: linear-gradient(to right, rgba(0,0,0,0), #307386, rgba(0,0,0,0));
+	margin-bottom: 40px;
+}
+.logo {
+	display: inline-block;
+	float: left;
+}
+.social {
+	display: inline-block;
+	float: right;
+}
+.menu {
+	display: block;
+	width: 180px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.menu a{
+	display: block;
+	padding: 8px 14px;
+	margin-bottom: -1px;
+	color: #0088cc;
+	text-decoration: none;
+	border: 1px solid #e5e5e5;
+}
+.menu .active a {
+	color: blue;
+	background: light-blue;
+}
+
+.contacts {
+	display: block;
+}
+
+.section {
+	background: #eff3f7;
+	border-radius: 4px;
+}
+
+.section .title {
+	padding: 28px;
+	font-size: 27px;
+	color: #36a8be;
+	border-bottom: 2px #36a8be solid;
+}
+.circle {
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 35px 45px 25px 15px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-border-radius: 99em;
+	-moz-border-radius: 99em;
+	border-radius: 99em;
+	border: 5px solid #36a8be;
+}
+
+.photo {
+	background-image: url('../img/me.jpg');
+	float: left;
+	margin-right: 20px;
+}
+
+.info {
+
+}
+
+.skills {
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.skill {
+	display: inline-block;
+	font-family: proxima;
+	font-size: 14px;
+	padding: 3px 12px;
+	border-radius: 3px;
+	color: #fff;
+	background: #3ba8c0;
+}
+

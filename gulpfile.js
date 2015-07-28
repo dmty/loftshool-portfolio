@@ -13,8 +13,8 @@ gulp.task('server', function () {
 gulp.task('watch', function () {
 	gulp.watch([
 		'web/*.html',
-		'web/assets/js/*.js',
-		'web/assets/css/*.css']).on('change', browserSync.reload);
+		'web/js/*.js',
+		'web/css/*.css']).on('change', browserSync.reload);
 });
 
 gulp.task('default', ['server', 'watch']);
